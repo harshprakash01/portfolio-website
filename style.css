@@ -7,6 +7,9 @@
 html{
     scroll-behavior: smooth;
 }
+h1{
+    font-size: 80;
+}
 body{
     background: #080808;
     color: aliceblue;
@@ -15,7 +18,7 @@ body{
 
 #header{
     width: 100%;
-    height:  100vh;
+    height: 100vh;
     background-image: url(images/bgxtemper.png);
     background-size: cover;
     background-position: cover;
@@ -67,11 +70,13 @@ nav ul li a:hover::after{
 }
 .header-text{
     margin-top: 20%;
-    font-size: 80px;
+    font-weight: 500;
+    font-size: 50px;
+    font-size-adjust: initial;
 }
 
-.header-text h1{
-    font-size: 80px;
+.container.header-text h1{
+    font-size: 40px;
     margin: 0px;
 }
 .header-text h1 span{
@@ -395,7 +400,7 @@ nav .fas{
         font-size: 16px;
     }
     .header-text h1{ 
-        font-size: 13px;
+        font-size: 80px;
     }
     nav .fas{
         display: block;
@@ -458,4 +463,7 @@ nav .fas{
     color: #61b752;
     margin-top: -10px;
     display: block;
+}
+#uiuxde{
+    font-size: large !important;
 }
