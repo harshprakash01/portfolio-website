@@ -7,14 +7,10 @@
 html{
     scroll-behavior: smooth;
 }
-#lao{
-    font-size: 39px;
-}
 
 body{
     background: #080808;
     color: aliceblue;
-
 }
 
 #header{
@@ -71,17 +67,18 @@ nav ul li a:hover::after{
 }
 .header-text{
     margin-top: 20%;
-    font-weight: 500;
-    font-size: 50px;
+    font-weight: 800;
+    font-size: 0;
     font-size-adjust: initial;
 }
 
 .container.header-text h1{
-    font-size: 40px;
+    font-size: 60px;
     margin: 0px;
 }
 .header-text h1 span{
     color: #ff004f;
+    font-size: 500px;
 }
 
 #about{
@@ -309,12 +306,13 @@ nav ul li a:hover::after{
 
 .contact-left{
     flex-basis: 35%;
+    text-decoration: none  !important;
 }
 
 .contact-right{
     flex-basis: 60%;
 }
-
+.fa-solid fa-phone
 .contact-left p{
     margin-top: 30px;
 }
@@ -400,8 +398,11 @@ nav .fas{
         margin-top: 100%;
         font-size: 16px;
     }
+    #header .container p{
+        font-size: 30px;
+    }
     .header-text h1{ 
-        font-size: 80px;
+        font-size: 50px;
     }
     nav .fas{
         display: block;
@@ -456,6 +457,7 @@ nav .fas{
     .copyright{
         font-size: 15px;
     }
+   
 
 }
 
@@ -467,4 +469,23 @@ nav .fas{
 }
 #uiuxde{
     font-size: large !important;
+}
+
+
+
+
+#contact .container .row .contact-left .services-list a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+
+
+
+#header .container h1{
+    font-size: 70px;
+   
+}
+#header .container p{
+    font-size: 30px;
 }
